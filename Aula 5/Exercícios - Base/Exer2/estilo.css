@@ -1,0 +1,47 @@
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 50vw;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    text-align: center;
+    border: solid black 0.5px;
+    box-shadow: 10px 10px;
+    border-radius: 20px;
+}
+figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid blue 2px; */
+
+}
+#dist{
+    width: auto;
+    /* border: solid yellow 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dist{
+    /* border:solid green 2px; */
+    display: flex;
+    align-content: space-around;
+}
+#cafe{
+    width: 100%;
+    border-radius: 20px;
+}
