@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt">
-
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>Café Java</title>
 </head>
 <body>
     <figure>
         <img id="cafe" src="imagens/cafe.jpg">
-        <figcaption>            
-            <div id="dist">
-                <h1 class="dist">Café Java</h1>
-                <img class="dist" src="imagens/marker.PNG">
-                <p class="dist">12km</p>
-            </div>
+        <figcaption>
+            <section class="container">          
+                <div class="titulo">
+                    <h1>Café Java</h1>
+                </div>
+                <div class="distancia">
+                    <img src="imagens/marker.PNG">
+                    <p>12km</p>
+                </div>
+            </section>
+            <section class="container">  
             <div class="estrelas">
-                <img src="imagens/5-star-rating.png"> 4.8 (23)
+                <img src="imagens/5-star-rating.png">
+                <p>4.8 (23)</p>
             </div>
-            <h3>$$$ Café brasileiro</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis quod sunt cupiditate odio, sapiente quidem, numquam, iure praesentium perspiciatis pariatur similique! Quaerat molestiae reprehenderit natus. Accusamus eos sapiente repellendus.</p>
+            </section>
+            <section class="coluna">
+                <div class="textoSub">
+                    <h3>$$$ Café brasileiro</h3>
+                </div>
+                <div class="texto">            
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis quod sunt cupiditate odio, sapiente quidem, numquam, iure praesentium perspiciatis pariatur similique! Quaerat molestiae reprehenderit natus. Accusamus eos sapiente repellendus.</p>
+                </div>
+            </section>
             <hr>
-            <h3 class="dias">Sexta a Domingo</h3>
-            <img src="imagens/clock.PNG" class="clock">
-            <div class="horario">                
-                <div>5:30PM</div>
-                <div>7:30PM</div>
-                <div>9:30PM</div>
-            </div>
-            <div class="reserva">Reservar</div>
+            <section class="coluna">
+                <div class="horario">
+                    <h3 >Sexta a Domingo</h3>
+                </div>                                             
+                    <div class="horario">
+                        <img src="imagens/clock.PNG">      
+                        <p>5:30PM  7:30PM  9:30PM</p>  
+                    </div>            
+                <div class="horario">
+                    <h3 id="reservar">Reservar</h3>
+                </div>
         </figcaption>
     </figure>
 </body>
-
 </html>
