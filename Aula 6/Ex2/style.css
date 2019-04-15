@@ -1,0 +1,38 @@
+section{
+    width: 960px;
+    display: inline-flex;
+    align-content: space-between;
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+}
+article{
+    border: solid rgba(128, 128, 128, 0.418) 1px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+img{
+    height: 150px;
+    width: 200px;
+}
+figcaption{
+    text-align: center;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.corte{
+    border: solid black 1px;
+}

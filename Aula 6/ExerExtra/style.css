@@ -1,0 +1,62 @@
+p, a, figcaption, h4, li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 12pt;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+a:visited{
+    color: red;
+}
+article{
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 960px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(128, 128, 128, 0.158) 10px 3px;
+    text-align: justify;
+}
+figcaption{
+    text-align: center;
+}
+li{
+    font-size: 10pt;
+}
+figcaption{
+    font-size: 8pt;
+}
+footer{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 10pt;
+    background-image: linear-gradient(purple,red,rgb(238, 255, 0));
+    height: 50px;
+    border-radius: 10px;
+}
+figure>img:hover{
+    width: 250px;
+    height: 250px;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+#caixa1{
+    margin-left: 50px;
+}
+#caixa2{
+    /* caixa2 hausdhuahsduhashda */
+    margin-right: 50px;
+}
+.linha{
+    display: inline-flex;
+}
+
+.divisao{
+    border: solid 1px rgba(128, 128, 128, 0.13);
+}
